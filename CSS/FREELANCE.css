@@ -461,10 +461,12 @@ footer #aboutFreelancer p {
     }
 
     footer #Location h3 {
-        align-items: center;
+        
         text-align: center;
     }
 
-
+    footer #aboutFreelancer h3 {
+       text-align: center;
+    }
 
 }
