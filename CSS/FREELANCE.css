@@ -422,8 +422,9 @@ footer #aboutFreelancer p {
 
 /* Mobile & Tablet rules */
 @media (max-width:767px) {
+ @media (max-width:767px) {
     nav {
-        width: 120%;
+        width: 100%;
         display: flex;
     }
 
@@ -436,7 +437,24 @@ footer #aboutFreelancer p {
     nav h1 {
         font-size: 30px;
     }
+    #star {
+        margin: 25px auto;
+        width: 300px;
+       
+    }
 
+    .PortfolioSTar {
+        margin: 25px auto;
+        display: flex;
+        width: 300px;
+    }
+    #AboutStar {
+        margin: 25px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+    }
 
 
 }
